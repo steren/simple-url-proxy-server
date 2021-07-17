@@ -1,0 +1,8 @@
+{
+    "name": "simple-get-server",
+    "env": {
+        "URL": {
+            "description": "Page to GET"
+        }
+    }
+}
