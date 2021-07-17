@@ -24,5 +24,5 @@ Click this button:
 Or type the following:
 
 ```
-$ gcloud beta run deploy --source . --set-env URL=<YOUR URL>
+$ gcloud beta run deploy --source . --update-env-vars URL=<YOUR URL>
 ```
