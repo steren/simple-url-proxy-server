@@ -1,21 +1,20 @@
-# simple-get-server
-Simple server that proxies a pre-defined URL
+# Simple server that proxies a pre-defined URL
 
-# Configuration
+## Configuration
 
 Configure with the following env vars:
 
 * `URL` (Required): URL of the page to return
 * `AUTH_TOKEN` (Optional): HTTP auth-token, defaults to none.
 
-# Build and run locally
+## Build and run locally
 
 ```
 $ docker build -t simple-get-server .
 $ docker run -p8080:8080 -e URL=<YOUR URL> simple-get-server
 ```
 
-# Deploy to Cloud Run
+## Deploy to Cloud Run
 
 Click this button:
 
